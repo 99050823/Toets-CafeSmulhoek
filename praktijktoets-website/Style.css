@@ -1,0 +1,167 @@
+body {
+    background-color: gray;
+}
+
+.container1 {
+	display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 1000px;
+    text-align: center;
+    grid-gap: 1cm;
+    margin: 0 auto;
+    background-color: white;
+	row-gap: 0;
+    column-gap: 0;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1000px;
+    text-align: center;
+    grid-gap: 1cm;
+    margin: 0 auto;
+    background-color: white;
+	row-gap: 0;
+    column-gap: 0;
+}
+
+.page-container {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+    background-color: white;
+}
+
+nav {
+	background-color: #66CC00;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 75px;
+	background-color: indigo;
+	padding: 8px;
+	position: relative;
+	left: 36px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #66CC00;
+}
+
+nav ul li:hover{
+	background-color: white;
+}
+
+nav ul li a:hover {
+	color: indigo;
+}
+
+.item6 {
+	grid-column: 1/3;
+}
+
+.item8 {
+	grid-column: 4/6;
+}
+
+.prijzen {
+    grid-row: 2;
+    grid-column: 2/3;
+	position: relative;
+	bottom: 1cm;
+}
+
+.prijzen > p {
+	line-height: 0;
+	text-align: left;
+}
+
+.sate {
+    grid-column: 3/4;
+}
+
+.speciaal {
+    grid-row: 3;
+}
+
+.ketchup {
+    grid-row: 3;
+    grid-column: 3/4;
+}
+
+.broodjes1 {
+	background-color: #66CC00;
+	grid-column: 1/3;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 1cm;
+}
+
+.tekstBroodjes1 {
+	background-color: indigo;
+	grid-row: 2;
+	grid-column: 1/3;
+}
+
+.tekstBroodjes1 ul{
+	list-style-type: none;
+	color: white;
+	text-align: left;
+}
+
+.prijsBroodjes1 ul {
+	list-style-type: none;
+	color: white;
+	text-align: right;
+	position: relative;
+	right: 6cm;
+	top: 2.7cm;
+}
+
+.broodjes2 {
+	background-color: #66CC00;
+	grid-column: 5/6;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 1cm;
+}
+
+.tekstBroodjes2 {
+	background-color: indigo;
+	grid-row: 2;
+	grid-column: 5/6;
+}
+
+.tekstBroodjes2 ul {
+	list-style-type: none;
+	color: white;
+	text-align: left;
+}
+
+.prijsBroodjes2 ul{
+	list-style-type: none;
+	color: white;
+	text-align: right;
+	position: relative;
+	left: 12cm;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #66CC00;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 0.5cm;
+}
